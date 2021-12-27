@@ -26,6 +26,7 @@ a {
 
 body {
     -webkit-font-smoothing: antialiased;
+    background-color: rgb(173, 172, 172);
 }
 
 .clearfix:after {
@@ -43,4 +44,13 @@ body {
 .hide,
 .none {
     display: none
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?4qr5sd');
+    src: url('../fonts/icomoon.eot?4qr5sd#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?4qr5sd') format('truetype'), url('../fonts/icomoon.woff?4qr5sd') format('woff'), url('../fonts/icomoon.svg?4qr5sd#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
 }

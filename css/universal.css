@@ -24,9 +24,6 @@
     display: block;
     width: 160px;
     height: 60px;
-    background: url(../imags/LOVE.png) no-repeat;
-    text-indent: -9999px;
-    overflow: hidden;
 }
 
 .nav {
@@ -37,7 +34,7 @@
 
 .nav ul li {
     float: left;
-    margin: 10px 20px 0 20px;
+    margin: 5px 20px 0 20px;
 }
 
 .nav ul li a {
