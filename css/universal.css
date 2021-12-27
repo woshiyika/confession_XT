@@ -11,21 +11,36 @@
 
 .header {
     position: relative;
-    height: 150px;
+    height: 60px;
 }
 
 .logo {
     position: absolute;
-    top: 25px;
-    width: 171px;
-    height: 61px;
+    width: 150px;
+    height: 60px;
 }
 
 .logo a {
     display: block;
-    width: 150px;
+    width: 160px;
     height: 60px;
     background: url(../imags/LOVE.png) no-repeat;
     text-indent: -9999px;
     overflow: hidden;
+}
+
+.nav {
+    position: absolute;
+    right: 0;
+    line-height: 60px;
+}
+
+.nav ul li {
+    float: left;
+    margin: 10px 20px 0 20px;
+}
+
+.nav ul li a {
+    font-size: 18px;
+    color: rgb(247, 203, 203);
 }
