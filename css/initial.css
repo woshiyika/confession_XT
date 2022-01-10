@@ -41,11 +41,6 @@ body {
     *zoom: 1
 }
 
-.hide,
-.none {
-    display: none
-}
-
 @font-face {
     font-family: 'icomoon';
     src: url('../fonts/icomoon.eot?4qr5sd');
